@@ -1,23 +1,23 @@
 
-# 💸 FastAPI Wallet System
+# FastAPI Wallet System
 
 A secure RESTful Digital Wallet backend built with **FastAPI**, supporting user registration, wallet funding, payments, currency conversion, product purchasing, and transaction history.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 User registration with **bcrypt password hashing**
-- 🔑 Basic Authentication for all secure endpoints
-- 💰 Fund wallet, check balance, and pay other users
-- 🌍 Real-time **currency conversion** via [currencyapi.com](https://currencyapi.com)
-- 🧾 View full transaction history
-- 🛒 Product catalog with purchase workflow
-- 🧪 Postman collection & environment files provided
+- User registration with **bcrypt password hashing**
+- Basic Authentication for all secure endpoints
+- Fund wallet, check balance, and pay other users
+- Real-time **currency conversion** via [currencyapi.com](https://currencyapi.com)
+- View full transaction history
+- Product catalog with purchase workflow
+- Postman collection & environment files provided
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **FastAPI**
@@ -28,7 +28,7 @@ A secure RESTful Digital Wallet backend built with **FastAPI**, supporting user 
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -73,15 +73,9 @@ Visit: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🧪 API Testing
+## API Testing
 
-### ✅ Use the provided Postman files:
-
-- `Wallet_API_Postman_Collection.json`
-- `Wallet_Local.postman_environment.json`
-- `Wallet_Production.postman_environment.json`
-
-### 🔐 Auth Note
+### Auth Note
 
 All protected endpoints use **Basic Auth**:  
 ```http
@@ -92,7 +86,7 @@ In Postman, just use the `Authorization` tab > `Basic Auth`.
 
 ---
 
-## 📦 API Endpoints
+## API Endpoints
 
 | Endpoint       | Method | Auth | Description                          |
 |----------------|--------|------|--------------------------------------|
@@ -107,20 +101,15 @@ In Postman, just use the `Authorization` tab > `Basic Auth`.
 
 ---
 
-## 🛠 Database
+## Database
 
 - Default: SQLite (file-based)
-- To use MySQL, update `DATABASE_URL` in `.env`:
-
-```
-DATABASE_URL=mysql+pymysql://username:password@localhost:3306/wallet_db
-```
 
 Run schema setup automatically on server start.
 
 ---
 
-## ✅ Example Users
+## Example Users
 
 | Username | Password |
 |----------|----------|
@@ -129,13 +118,4 @@ Run schema setup automatically on server start.
 
 ---
 
-## 📌 License
-
-MIT License
-
----
-
-## ✨ Credits
-
-Built for the API Design & Implementation Assignment 💡  
-Maintained by [Your Name](https://github.com/your-username)
+Maintained by [Harish Mahto](https://github.com/HarishMahto)
