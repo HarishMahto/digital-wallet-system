@@ -21,7 +21,7 @@ A secure RESTful Digital Wallet backend built with **FastAPI**, supporting user 
 
 - **Python 3.10+**
 - **FastAPI**
-- **SQLite / MySQL** via SQLAlchemy
+- **SQLite** via SQLAlchemy
 - **bcrypt** for password hashing
 - **python-dotenv** for config
 - **Uvicorn** as ASGI server
